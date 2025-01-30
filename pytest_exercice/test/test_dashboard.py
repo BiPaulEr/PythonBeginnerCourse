@@ -1,6 +1,6 @@
 import pytest
 from tasks_manager_fixtures import task_manager_two_tasks, task_manager_empty
-from tasks_project.dashboard import generate_task_report
+from dashboard import generate_task_report
 
 @pytest.mark.integration
 def test_dashboard(task_manager_two_tasks):

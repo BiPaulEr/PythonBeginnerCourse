@@ -1,6 +1,6 @@
 import pytest
 from tasks_manager_fixtures import task_manager_two_tasks, task_manager_empty
-from tasks_project.priority_handler import sort_tasks_by_priority
+from priority_handler import sort_tasks_by_priority
 
 @pytest.mark.unit
 def test_sort_tasks_by_priority(task_manager_two_tasks):

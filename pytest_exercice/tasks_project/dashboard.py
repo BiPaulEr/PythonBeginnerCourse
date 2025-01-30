@@ -1,5 +1,5 @@
-from tasks_project.task_manager import TaskManager
-from tasks_project.priority_handler import sort_tasks_by_priority
+from task_manager import TaskManager
+from priority_handler import sort_tasks_by_priority
 
 def generate_task_report(task_manager):
     pending_tasks = [task for task in task_manager.tasks if not task["completed"]]

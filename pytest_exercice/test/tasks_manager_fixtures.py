@@ -1,5 +1,5 @@
 import pytest
-from tasks_project.task_manager import TaskManager
+from task_manager import TaskManager
 
 @pytest.fixture
 def task_manager_two_tasks():
