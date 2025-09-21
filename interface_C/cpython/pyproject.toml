@@ -1,3 +1,8 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "extensions-c"
+version = "1.0.0"
+description = "Démonstration extension C avec CPython"

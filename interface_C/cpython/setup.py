@@ -1,7 +1,7 @@
 from setuptools import setup, Extension
 
 # Define the C extension
-module = Extension('extensions', sources=['extensions/extension.c'])
+module = Extension('extensions', sources=['extensions_c_sources/extension.c'])
 
 # Call setup to build the package
 setup(
