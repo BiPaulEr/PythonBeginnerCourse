@@ -1,1 +1,0 @@
-pytest --cov=calculator --cov-report html --cov-branch
